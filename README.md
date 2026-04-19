@@ -12,6 +12,7 @@
 - [Project Improvement using Hyperparameter Tuning](#project-improvement-using-hyperparameter-tuning)
 - [Explainable AI and Feature Reduction](#explainable-ai-and-feature-reduction)
 - [Final Evaluation and Deployment](#final-evaluation-and-deployment)
+- [Resources](#resources)
 
 ### Project Overview
 The objective of this project was to build a Machine Learning classification model to diagnose breast tumors as either Malignant (1) or Benign (0) using the renowned Wisconsin Breast Cancer Dataset. Rather than simply deploying a baseline algorithm, this project focused heavily on rigorous data hygiene, preventing data leakage, and applying medical-domain ethics to optimize the model for a 100% Recall rate (zero missed cancers).
@@ -59,3 +60,6 @@ By fixing the Cost Function bowl and tuning the hyperparameters, the final model
 - The Results: At the standard 50% decision threshold, the model achieved a staggering 100% Recall (0 missed cancers) while generating only 5 False Positives.
 - ROC/AUC: The model achieved an exceptional AUC Score of 99.75%, proving near-perfect intelligence in separating benign from malignant cells.
 - Serialization: The final Tuned Model and the StandardScaler were successfully serialized into .pkl files using joblib, making the pipeline fully ready for software engineering integration and clinical deployment.
+
+### Resources
+See codes [here](https://drive.google.com/file/d/1bWq01hbDMN-wqfuHKzam8vUjIzzUkLbR/view?usp=drive_link)
